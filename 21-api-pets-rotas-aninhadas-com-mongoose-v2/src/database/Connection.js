@@ -1,4 +1,3 @@
-//const mongoose  require('mongoose');
 import mongoose from 'mongoose';
 
 const DB_PASS= process.env.DB_PASS;
@@ -25,5 +24,4 @@ class Connection {
   }
 }
 
-//module.exports = new Connection();
 export default new Connection();
